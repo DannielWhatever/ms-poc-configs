@@ -1,2 +1,6 @@
 server.port: 8301
 
+eureka:
+  instance:
+    hostname: ${APPLICATION_DOMAIN:localhost}
+    nonSecurePort: ${server.port}

@@ -1,0 +1,6 @@
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_DOMAIN:http://localhost:761}/eureka/
