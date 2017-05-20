@@ -1,2 +1,6 @@
 
 server.port: ${vcap.application.port:8761}
+
+eureka.client:
+  register-with-eureka: false
+  fetch-registry: false
